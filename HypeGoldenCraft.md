@@ -3,7 +3,7 @@
 - se pastreaza silver coins, gold coins si alte lucruri
 
 ---
-# Server Info
+# Server Infoa
 
 ## Minigame de baza
 - Un server RPG la baza, care o sa aiba si partea de insule ca pe SkyBlock, dar o sa ai inventarul diferit de la SkyBlock, o sa ai inventarul normal de RPG
