@@ -67,7 +67,7 @@
 | 8->9  | 8500      |       |               |            |
 | 9->10 | 9600      |       |               |            |
 
-a
+
 ## 1. Warrior
 ### Description:
 - The Warrior is a melee class that excels in close combat
