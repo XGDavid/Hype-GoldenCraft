@@ -3,7 +3,7 @@
 - se pastreaza silver coins, gold coins si alte lucruri
 
 ---
-# Server Infoa
+# Server Info
 
 ## Minigame de baza
 - Un server RPG la baza, care o sa aiba si partea de insule ca pe SkyBlock, dar o sa ai inventarul diferit de la SkyBlock, o sa ai inventarul normal de RPG
@@ -45,27 +45,59 @@
 | Level | XP Needed | Stats | Ability Point | Perk Point |
 |-------|-----------|-------|---------------|------------|
 | 1->2  | 900       |       |               | 1          |
-| 2->3  | 1400      | 1     |               |            |
-| 3->4  | 2100      | 1     |               |            |
-| 4->5  | 2800      |       |               | 1          |
-| 5->6  | 3600      |       | 1             |            |
-| 6->7  | 4500      | 1     |               |            |
-| 7->8  | 5400      |       |               | 1          |
-| 8->9  | 6500      |       |               | 1          |
-| 9->10 | 7600      |       |               | 1          |
+| 2->3  | 1.400     | 1     |               |            |
+| 3->4  | 2.100     | 1     |               |            |
+| 4->5  | 2.800     |       |               | 1          |
+| 5->6  | 3.600     |       | 1             |            |
+| 6->7  | 4.500     | 1     |               |            |
+| 7->8  | 5.400     |       |               | 1          |
+| 8->9  | 6.500     |       |               | 1          |
+| 9->10 | 7.600     |       |               | 1          |
 
 # Classes Levels Prestige 1
 | Level | XP Needed | Stats | Ability Point | Perk Point |
 |-------|-----------|-------|---------------|------------|
-| 1->2  | 1900      |       | 1             |            |
-| 2->3  | 2400      |       |               | 1          |
-| 3->4  | 3100      |       | 1             |            |
-| 4->5  | 4800      | 1     |               |            |
-| 5->6  | 5600      |       | 1             |            |
-| 6->7  | 6500      | 1     |               |            |
-| 7->8  | 7400      |       |               |            |
-| 8->9  | 8500      |       |               |            |
-| 9->10 | 9600      |       |               |            |
+| 1->2  | 1.900     |       | 1             |            |
+| 2->3  | 2.400     |       |               | 1          |
+| 3->4  | 3.100     |       |               | 1          |
+| 4->5  | 4.800     | 1     |               |            |
+| 5->6  | 5.600     |       | 1             |            |
+| 6->7  | 6.500     | 1     |               |            |
+| 7->8  | 7.400     |       |               | 1          |
+| 8->9  | 8.500     |       |               | 1          |
+| 9->10 | 9.600     |       |               | 2          |
+
+# Classes Levels Prestige 2
+| Level | XP Needed | Stats | Ability Point | Perk Point |
+|-------|-----------|-------|---------------|------------|
+| 1->2  | 2.500     | 1     |               |            |
+| 2->3  | 3.500     |       | 1             |            |
+| 3->4  | 4.500     |       |               | 2          |
+| 4->5  | 5.800     | 1     |               |            |
+| 5->6  | 6.600     |       | 1             |            |
+| 6->7  | 7.500     |       |               | 2          |
+| 7->8  | 8.900     | 1     |               |            |
+| 8->9  | 10.000    |       | 1             |            |
+| 9->10 | 13.500    |       |               | 2          |
+
+# Classes Levels Prestige 3
+| Level | XP Needed | Stats | Ability Point | Perk Point |
+|-------|-----------|-------|---------------|------------|
+| 1->2  | 3.000     | 2     |               |            |
+| 2->3  | 6.000     |       | 2             |            |
+| 3->4  | 7.500     |       |               | 2          |
+| 4->5  | 9.000     | 2     |               |            |
+| 5->6  | 12.000    |       | 2             |            |
+| 6->7  | 15.000    |       |               | 2          |
+| 7->8  | 17.000    | 2     |               |            |
+| 8->9  | 20.000    |       | 2             |            |
+| 9->10 | 30.000    |       |               | 2          |
+
+# Classes Levels Total (Prestige 0 + 1 + 2 + 3)
+| Stats | Ability Point | Perk Point |
+|-------|---------------|------------|
+| 14    | 12            | 23         |
+
 
 
 ## 1. Warrior
@@ -79,26 +111,69 @@
     - Attack Damage: 4
     - Attack Speed: 0.3
 - PASSIVE: After killing an entity gains Regeneration for 2 seconds (Cooldown: 20 seconds; For killing Players effect is reduced to 1 second and gain 20 Fury)
-- PASSIVE: Gain 3 Fury every auto attack on any entity (For Players gain 10 Fury every auto attack)
+- PASSIVE: Gain 3 Fury every auto attack on any entity (For Players gain 8 Fury every auto attack)
 ### Abilities:
-- SWORD: Cleave - Cleave the enemies in front of you, dealing 14(10 + 100% attack damage) to them (Cooldown: 30 seconds, Costs 20 Fury)
-- AXE: Charge - Rush towards an enemy dealing 6(150% attack damage) damage and stunning them for 0.5 seconds (Cooldown: 15 seconds, Costs 30 Fury)
+- SWORD: Cleave - Cleave the enemies in front of you, dealing 14(10 + 100% attack damage) to them (Cooldown: 30 seconds, Costs 20 Fury) ([?] Ability Levels: 10->11->12->13->14->16->18)
+- AXE: Charge - Rush towards an enemy dealing 6(150% attack damage) damage and stunning them for 0.5 seconds (Cooldown: 15 seconds, Costs 30 Fury) ([?] Ability Levels: 150%->160%->170%->180%->190%->200%)
 ### Subclasses
-- Every subclass gives you unique Abilities
 #### 1. Berserker
     - Health: -10
     - Attack Damage: +2
     - Attack Speed: -0.2
 - Abilities:
-  - AXE: Bloodlust - Heal for 20% of damage dealt for the next 5 seconds (Cooldown: 30 seconds, Costs 40 Fury)
+  - AXE: Bloodlust - Heal for 20% of damage dealt for the next 5 seconds (Cooldown: 30 seconds, Costs 40 Fury) ([?] Ability Levels: 20%->21%->22%->23%->24%->25%->28%; Fury Cost: 40->40->40->50->50->50->60; Cooldown: 30->30->30->28->28->28->25 seconds)
 #### 2. Tank
     - Health: +15
     - Armor: +5
     - Magic Resist: +7
     - Damage: -2
 - Abilities:
-  - SHIELD (AXE): Fortify - Increase Armor and Magic Resist by 14(10 + 200% attack damage) for 10 seconds (Cooldown: 30 seconds, Costs 30 Fury)
+  - SHIELD (AXE): Fortify - Increase Armor and Magic Resist by 14(10 + 200% attack damage) for 10 seconds (Cooldown: 30 seconds, Costs 30 Fury) ([?] Ability Levels: 200%->205%->210%->215%->220%->225%->230%)
 ### Perks:
-- Last Stand: Deal 1 damage for every 2 health missing while you are below 30% health (Max 5 damage)
-- Juggernaut: Reduce all damage taken by 5%
-- Unstoppable: Reduce the duration of all crowd control effects by 25%
+- Last Stand: Deal 1 damage for every 2 health missing while you are below 30% health (Max 5 damage) (Prestige 1 -> Unlock on all classes)
+- Juggernaut: Reduce all damage taken by 5% (Prestige 2 -> Unlock on all classes)
+- Unstoppable: Reduce the duration of all crowd control effects by 25% (Prestige 3 -> Unlock on all classes)
+### Level Stats Upgrade:
+- P0 lvl 3: +1 Health
+- P0 lvl 4: +1 Armor
+- P0 lvl 7: +1 Magic Resist
+- P1 lvl 5: +1 Attack Damage
+- P1 lvl 7: +1 Health
+- P2 lvl 2: +1 Attack Damage
+- P2 lvl 5: +1 Health
+- P2 lvl 8: +1 Armor
+- P3 lvl 2: +2 Magic Resist
+- P3 lvl 5: +1 Health, +1 Attack Damage
+- P3 lvl 7: +2 Armor
+
+## 2. Mage
+### Description:
+- The Mage is a ranged class that excels in dealing magic damage from a distance
+### Stats:
+    - Mana: 200
+    - Ability Power: 5
+    - Health: 20
+    - Armor: 2
+    - Magic Resist: 5
+    - Attack Damage: 2
+    - Attack Speed: 0.5
+- PASSIVE: Regenerate 5 Mana every 2 seconds
+- PASSIVE: When you have full Mana you heal for 1% of your max health every 2 seconds
+### Abilities:
+- SNOWBALL: Magic Missile - Shoot a magic missile that deals 8(5 + 120% ability power) to the first enemy hit(Cooldown: 5 seconds, Costs 20 Mana) ([?] Ability Levels: 120%->125%->130%->135%->140%->150%->160%; Mana Cost: 20->22->25->27->30->33->35; Cooldown: 5->5->5->4->4->4->3 seconds; Mana Cost: 20->22->25->27->30->33->35)
+- STAFF: Fireball - Shoot a fireball that explodes on impact, dealing 13(8 + 150% ability power) to enemies in a 3 block radius (Cooldown: 20 seconds, Costs 50 Mana) ([?] Ability Levels: 150%->155%->160%->165%->170%->180%->190%; Cooldown: 20->19->18->17->16->15->14 seconds; Mana Cost: 50->53->55->60->65->70->75)
+## Subclasses
+#### 1. Sorcerer
+    - Ability Power: +3
+    - Mana: +50
+    - Health: -5
+- Abilities:
+  - STAFF: Lightning Bolt - Shoot a lightning bolt that deals 10(7 + 150% ability power) to the first enemy hit and chains to 2 nearby enemies for 50% damage (Cooldown: 30 seconds, Costs 60 Mana) ([?] Ability Levels: 150%->155%->160%->165%->170%->180%->190%; Mana Cost: 60->60->60->70->75->80->85)
+#### 2. Enchanter
+    - Ability Power: +2
+    - Health: +5
+- Abilities:
+  - STAFF: Buff - Buff yourself or an ally, increasing their Adaptive Force(Attack Damage or Ability Power) by 10(5 + 100% ability power), Movement Speed by 1(1 + Ability Level), Health Regeneration by 1(1 + Ability Level) for 5 seconds (Cooldown: 30 seconds, Costs 40 Mana) ([?] Ability Levels: 5->5->6->6->7->8->9; Duration: 5->6->6->7->7->8->9 seconds; Mana Cost: 40->40->40->45->50->55->60)
+### Perks:
+- Arcane Mastery: Increase Adaptive Force by 3 (Prestige 1 -> Unlock on all classes)
+- Mage Safeguard: Reduce silver coins lost on death by 25% (Prestige 2 -> Unlock on all classes)
